@@ -17,7 +17,7 @@ You should create one R script called run_analysis.R that does the following.
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Steps to produce the clean datasets:
+# Steps to produce the clean datasets:
 1. Unzip and put all data files in the working directory.
 2. Run the run_analysis.R in the RStudio.
 3. Two files will be generated: 
