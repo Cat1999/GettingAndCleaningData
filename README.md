@@ -21,5 +21,5 @@ Create one R script called run_analysis.R that does the following:
 1. Download, unzip and put all data files in the working directory.
 2. Run the run_analysis.R in the RStudio.
 3. Two files will be generated: 
-   1. The whole dataset, which is stored in "Whole clean data.txt"; 
+   1. The whole dataset, which is stored in "Whole clean data.txt"; This file has been zipped due to size limitation for uploading.
    2. The second tidy dataset for the average for each activity and each subject, which is stored in "Tidy dataset for mean.txt".
