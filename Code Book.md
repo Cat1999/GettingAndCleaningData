@@ -2,17 +2,15 @@ This code book includes some variables and steps for getting the clean data.
 
 The whole group includes 30 people. In general, there are two parts of results: test part and train part. 
 
-There are 6 activities conducted:
+# There are 6 activities conducted:
 1 Walking
 2 Walking upstairs
-
 3 Walking upstairs
-
 4 Sitting
 5 Standing
 6 Laying
 
-Different signals are measured and recorded in the X, Y and Z directions:
+# Different signals are measured and recorded in the X, Y and Z directions:
 
 tBodyAcc-XYZ
 tGravityAcc-XYZ
@@ -32,7 +30,7 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-The set of variables that were estimated from these signals are: 
+# The set of variables that were estimated from these signals are: 
 
 mean(): Mean value
 std(): Standard deviation
@@ -60,7 +58,7 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
 
-The following steps are applied to obtained the clean dataset:
+# The following steps are applied to obtained the clean dataset:
 1. Download the datasets from
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. Read the dataset description.
