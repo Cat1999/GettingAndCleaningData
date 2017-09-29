@@ -58,7 +58,7 @@ write.table(wholedata, "Whole clean data.txt")
 
 result <- matrix(data=NA, nrow=180, ncol=66)
 result <- as.data.frame(result)
-colnames(result) <- colnames(wholedata)
+colnames(result) <- colnames(MeanStd)
 row <- 1  # Initialize the row number
 for (i in 1:30) {
     for (j in 1:6) {
