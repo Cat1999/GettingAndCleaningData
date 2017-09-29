@@ -9,7 +9,7 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-You should create one R script called run_analysis.R that does the following.
+Create one R script called run_analysis.R that does the following:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -18,7 +18,7 @@ You should create one R script called run_analysis.R that does the following.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 # Steps to produce the clean datasets:
-1. Unzip and put all data files in the working directory.
+1. Download, unzip and put all data files in the working directory.
 2. Run the run_analysis.R in the RStudio.
 3. Two files will be generated: 
    1. The whole dataset, which is stored in "Whole clean data.txt"; 
